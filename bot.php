@@ -29,12 +29,13 @@ try {
 				if($chatId == $id){
 					if($text == '/start'){
               $bot->sendvideo([ 'chat_id'=>$chatId,
-                  'video'=>"https://t.me/QIEIWNS/3",
-                   'caption'=>'اهلن بك في اداه ياسين المصري لصيد متاحات',
+                  'video'=>"https://t.me/QIEIWNS/4",
+                   'caption'=>'𝑊𝐸𝐿𝐶𝑂𝑀𝐸 𝑇𝑂 𝐻𝐸𝐿𝐿 †
+~ @RTYIJJk 🍂',
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
-                          [['text'=>'اضافه حساب الي الاداه','callback_data'=>'login']],
-                          [['text'=>"المطور 👿 ", 'url'=>"https://t.me/y_a_n_u_u"]],
+                          [['text'=>'𝙰𝙳𝙳 𝙵𝙰𝙺𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃','callback_data'=>'login']],
+                          [['text'=>"المطور ", 'url'=>"https://t.me/RTYIJJk"]],
                          
                       ]
                   ])
@@ -46,7 +47,7 @@ if($text == '/help'){
               'caption'=>'طرق السحبب',
                       'reply_markup'=>json_encode([
                       'inline_keyboard'=>[                       
-                       [['text'=>"ياسين المصري", 'url'=>"https://t.me/y_a_n_u_u"]],
+                       [['text'=>"𝐓𝐞𝐥𝐞", 'url'=>"https://t.me/RTYIJJk"]],
                        ]
                        ])
                        ]);
@@ -64,7 +65,8 @@ if($text == '/help'){
             $bot->sendMessage([
 		       'chat_id'=>$chatId,
                 'message_id'=>$mid,
-                'text'=>"تم تفعيل البوت بنجاج مبروك",
+                'text'=>"لا تقلق ياسين المصري موجود لمساعده 🤍
+@RTYIJJk",
 
               ]);   
  }
@@ -120,7 +122,7 @@ if($text == '/help'){
 		              $bot->editMessageText([
 		                  'chat_id'=>$chatId,
 		                  'message_id'=>$mid,
-		                  'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴𝙰𝙲𝙲𝙾𝚄𝙽𝚃𝚂 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙿𝙰𝙶𝙴 𝙱𝚈 @eeeeeb 𖤐",
+		                  'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴𝙰𝙲𝙲𝙾𝚄𝙽𝚃𝚂 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙿𝙰𝙶𝙴 𝙱𝚈 @RTYIJJk 𖤐",
 		                  'reply_markup'=>json_encode($keyboard)
 		              ]);
 		              $config['mode'] = null;
@@ -138,7 +140,7 @@ if($text == '/help'){
           		    $bot->editMessageText([
                       'chat_id'=>$chatId,
                       'message_id'=>$mid,
-                       'text'=>"اهلن بك في اداه ياسين المصري",
+                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @RTYIJJk",
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
                           [['text'=>' 👩‍🔧┇ 𝙰𝙳𝙳 𝙵𝙰𝙺𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 ','callback_data'=>'login']],
@@ -190,12 +192,12 @@ if($text == '/help'){
 				} else {
 					$bot->sendvideo([
        'chat_id'=>$chatId,
-       'video'=> "https://t.me/QIEIWNS/3",
+       'video'=> "https://t.me/QIEIWNS/4",
         'caption'=>'البوت مدفوع 💲 و ليس مجاني 
 لشراء نسخه مراسلة المطور ',
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
-                          [['text'=>'▫️| مطور البوت','url'=>'t.me/y_a_n_u_u']],
+                          [['text'=>'▫️| مطور البوت','url'=>'t.me/RTYIJJk']],
                        [['text'=>"▪️| قناه صيد المشتركين", 'url'=>"t.me/YASEEENRJDJ3"]],
                   ]
 							])
@@ -218,7 +220,7 @@ if($text == '/help'){
 		              $bot->sendMessage([
 		                  'chat_id'=>$chatId,
 		                  'message_id'=>$mid,
-		                   'text'=>" اداه ياسين المصري المدفوعه",
+		                   'text'=>" 𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴𝙰𝙲𝙲𝙾𝚄𝙽𝚃𝚂 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙿𝙰𝙶𝙴 𝙱𝚈 @RTYIJJk 𖤐",
 		                  'reply_markup'=>json_encode($keyboard)
 		              ]);
           } elseif($data == 'addL'){
@@ -404,7 +406,7 @@ if($text == '/help'){
           	$bot->editMessageText([
                       'chat_id'=>$chatId,
                       'message_id'=>$mid,
-                       'text'=>"اداه ياسين المصري المدفوعه",
+                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @RTYIJJk",
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
                           [['text'=>' 👩‍🔧┇ 𝙰𝙳𝙳 𝙵𝙰𝙺𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 ','callback_data'=>'login']],
@@ -430,7 +432,7 @@ if($text == '/help'){
 		              $bot->editMessageText([
 		                  'chat_id'=>$chatId,
 		                  'message_id'=>$mid,
-		                    'text'=>" اداه ياسين المصري",
+		                    'text'=>" 𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃𝚂 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙿𝙰𝙶𝙴 𝙱𝚈 @RTYIJJk 𖤐",
 		                  'reply_markup'=>json_encode($keyboard)
 		              ]);
           	} elseif($data[0] == 'moveList'){
@@ -482,7 +484,7 @@ date_default_timezone_set('Asia/Baghdad');
           	  $bot->editMessageText([
                       'chat_id'=>$chatId,
                       'message_id'=>$mid,
-                       'text'=>"اداه ياسين المصري المدفوعه",
+                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @RTYIJJk",
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
                           [['text'=>' 👩‍🔧┇ 𝙰𝙳𝙳 𝙵𝙰𝙺𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 ','callback_data'=>'login']],
@@ -508,7 +510,7 @@ date_default_timezone_set('Asia/Baghdad');
           	  $bot->editMessageText([
                       'chat_id'=>$chatId,
                       'message_id'=>$mid,
-                       'text'=>"اداه ياسين المصري المدفوعه",
+                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @RTYIJJk",
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
                           [['text'=>' 👩‍🔧┇ 𝙰𝙳𝙳 𝙵𝙰𝙺𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 ','callback_data'=>'login']],
